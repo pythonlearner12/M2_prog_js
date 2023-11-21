@@ -19,9 +19,5 @@ class App {
         }
     }
 }
-
-let app = new App ();
+let app = new App();
 app.runApplication();
-console.log(app.greeting);
-console. log("appNaam: ."+app.appNaam);
-console.log("versienummer: ."+app.versienummer);

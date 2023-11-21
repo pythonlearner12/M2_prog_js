@@ -13,9 +13,8 @@ class App {
         console.log(appNaam, versienummer, versiedatum, autheur, copyright, distributeur, darkmode);
         //code gaat hier!
         //print("hello")
+        
         {
         }
     }
 }
-let app = new App();
-app.runApplication();
