@@ -11,6 +11,8 @@ class App {
         let darkmode = true
 
         console.log(appNaam, versienummer, versiedatum, autheur, copyright, distributeur, darkmode);
+
+        console.log("hello world!");
         //code gaat hier!
         //print("hello")
         {
