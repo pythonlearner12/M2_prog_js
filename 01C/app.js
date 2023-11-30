@@ -2,7 +2,7 @@
 class App {
     runApplication() {
         this.greeting = "starting up"
-        app.appNaam = "appNaam"
+        this.appNaam = "appNaam"
         app.versienummer = 0.9
         app.versiedatum = "21/11/2023"
         app.autheur = "Fred"
@@ -14,15 +14,6 @@ class App {
         let Bul = true
         let str = "string"
         let num = 1
-
-
-        console.log("appNaam: "+app.appNaam)
-        console.log("versienummer: "+app.versienummer)
-        console.log("versiedatum"+app.versiedatum)
-        console.log("autheur: "+app.autheur)
-        console.log("copyright: "+app.copyright)
-        console.log("distributeur"+app.distributeur)
-        console.log("darkmode"+app.darkmode)
 
 
         //console.log(appNaam, versienummer, versiedatum, autheur, copyright, distributeur, darkmode);
@@ -38,3 +29,16 @@ class App {
 }
 let app = new App();
 app.runApplication();
+
+let app2 = new App();
+app2.runApplication();
+
+
+console.log("appNaam: "+app.appNaam)
+console.log("versienummer: "+app.versienummer)
+console.log("versiedatum"+app.versiedatum)
+console.log("autheur: "+app.autheur)
+console.log("copyright: "+app.copyright)
+console.log("distributeur"+app.distributeur)
+console.log("darkmode"+app.darkmode)
+console.log("appNaam2: "+app2.appNaam)
