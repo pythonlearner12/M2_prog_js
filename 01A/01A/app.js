@@ -14,7 +14,6 @@ class App {
         //code gaat hier!
         //print("hello")
         
-        {
-        }
+        
     }
 }
