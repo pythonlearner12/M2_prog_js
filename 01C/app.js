@@ -1,21 +1,31 @@
 
 class App {
     runApplication() {
-        
-        let appNaam = "appNaam"
-        let versienummer = 0.9
-        let versiedatum = "21/11/2023"
-        let autheur = "Fred"
-        let copyright = "yes"
-        let distributeur = "Fred"
-        let darkmode = true
+        this.greeting = "starting up"
+        app.appNaam = "appNaam"
+        app.versienummer = 0.9
+        app.versiedatum = "21/11/2023"
+        app.autheur = "Fred"
+        app.copyright = "yes"
+        app.distributeur = "Fred"
+        app.darkmode = true
 
 
         let Bul = true
         let str = "string"
         let num = 1
 
-        console.log(appNaam, versienummer, versiedatum, autheur, copyright, distributeur, darkmode);
+
+        console.log("appNaam: "+app.appNaam)
+        console.log("versienummer: "+app.versienummer)
+        console.log("versiedatum"+app.versiedatum)
+        console.log("autheur: "+app.autheur)
+        console.log("copyright: "+app.copyright)
+        console.log("distributeur"+app.distributeur)
+        console.log("darkmode"+app.darkmode)
+
+
+        //console.log(appNaam, versienummer, versiedatum, autheur, copyright, distributeur, darkmode);
 
         console.log(Bul, str, num)
 
