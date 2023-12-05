@@ -16,13 +16,29 @@ class App {
         console.log("hier:");
         console. log( aArgument);
     }
+
+    mario()
+    {
+        console.log("MARIO!!");
+    }
+
+    lach()
+    {
+        console.log("BWAHAHA!!!");
+        return "BWAHAHA!!!";
+    }
+
+    optellen(number1, number2){
+        return number1+number2;
+    }
 }
 
 let app = new App();
 app.runApplication();
 app.newClassFunction();
 app.anotherFunctionWithArguments("mijn argument is iets...");
-
+app.lach();
+app.optellen(5,6);
 
 
 
