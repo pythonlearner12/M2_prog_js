@@ -1,3 +1,35 @@
+class App {
+    runApplication() 
+    {
+        //code gaat hier!
+        console.log("hello world")
+    }
+
+    newClassFunction()
+    {
+        console.log("hello world in de nieuwClassFunction");
+    }
+    
+    anotherFunctionWithArguments(aArgument)
+    {
+        console.log("kom maar met je argument");
+        console.log("hier:");
+        console. log( aArgument);
+    }
+}
+
+let app = new App();
+app.runApplication();
+app.newClassFunction();
+app.anotherFunctionWithArguments("mijn argument is iets...");
+
+
+
+
+
+
+
+
 let u = 9;
 let h = 8;
 let i = 15
@@ -82,19 +114,19 @@ superMooieGlobalFunction();
 superMooieGlobalFunction();
 
 
-class App {
-    runApplication() {
-
-        //code gaat hier!
-        console.log("hello world")
-        superMooieGlobalFunction();
-        
-        
-    }
-}
-
-let app = new App();
-app. runApplication();
+//class App {
+//    runApplication() {
+//
+//        //code gaat hier!
+//        console.log("hello world")
+//        superMooieGlobalFunction();
+//        
+//        
+//    }
+//}
+//
+//let app = new App();
+//app.runApplication();
 
 
 
