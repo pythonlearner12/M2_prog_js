@@ -63,12 +63,23 @@ class App {
     runApplication5()
     {
         let mijnH1 = document.getElementsByTagName("h1");
-        mijnH1[0].innerText = "nieuws ";
-        mijnH1[1].innerText = "reviews";
-        mijnH1[2].innerText = "commentaar ";
+        for(let i = 0; i < mijnH1.length; i++)
+        {
+            mijnH1[i].innerText = "huh?";
+        }
         console.log(mijnH1)
+    }
+
+    runApplication6()
+    {
+        let headersByCssClass = document.getElementsByTagName("h1");
+        headersByCssClass[0].innerText = "nieuws ";
+        headersByCssClass[1].innerText = "reviews";
+        headersByCssClass[2].innerText = "commentaar ";        
+        headersByCssClass[3].innerText = "bla ";
+        headersByCssClass[4].innerText = "ahaha ";
     }
 }
 
 let app = new App();
-app.runApplication5();
+app.runApplication6();
