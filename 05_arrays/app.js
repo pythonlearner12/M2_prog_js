@@ -3,6 +3,15 @@ class App {
     runApplication() {
         
         let array = ["artiest1", "artiest2", "artiest3"]
+        array.push("bob dylan")
+        array.push("prince")
+        array.splice(array.indexOf("bob dylan"),1)
+        array.splice(array.indexOf("prince"),1)
+        
+        array.push("artiest4")
+        array.push("artiest5")
+
+
         console.log(array)
 
 
@@ -11,6 +20,7 @@ class App {
             const element = array[i];
             console.log(`${i} : ${element}`)
         }
+
         
     }
 
