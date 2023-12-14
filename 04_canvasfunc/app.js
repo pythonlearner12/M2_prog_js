@@ -85,21 +85,6 @@ class App
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //length wall
         g. beginPath()
         g. fillStyle = "grey";
