@@ -79,7 +79,19 @@ class App {
         headersByCssClass[3].innerText = "bla ";
         headersByCssClass[4].innerText = "ahaha ";
     }
+
+    runApplication7()
+    {
+        let data = ["nieuws ","reviews","commentaar ", "bla ","ahaha "]
+        
+        let headersByCssClass = document.getElementsByTagName("h1");
+        for(let i = 0; i < data.length; i++)
+        {
+            
+            headersByCssClass[i].innerText = `${i} : ${data[i]}`;
+        }
+    }
 }
 
 let app = new App();
-app.runApplication6();
+app.runApplication7();
