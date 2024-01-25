@@ -1,59 +1,37 @@
+class User {
+    constructor(name) {
+        this.name = name;
+        console.log(this.name);
+    }
 
-
-class Dino {
-    constructor(name, bruh, hi)
-        {
-            this.name = name;
-            this.bruh = bruh;
-            this.hi = hi;
-        }
-    
-}
-
-
-class User
-{
-    constructor(wiebenik)
-    {
-        this.wiebenik = "wiebenik"
-        console.log(wiebenik)
+    wieBenIk() {
+        console.log(this.name);
     }
 }
-
-
-
 
 class App {
-
-    
     runApplication() {
-        {
-        
-            let dino = new Dino("a", "b", "c");
-            console.log(dino.name)
-            console.log(dino.bruh)
-            console.log(dino.hi)
+        let user1 = new User("bob1");
+        let user2 = new User("bob2");
+        let user3 = new User("bob3");
+        let user4 = new User("bob4");
+        let user5 = new User("bob5");
+        let user6 = new User("bob6");
 
+        let patches = new User("patches the hyena");
 
-
-
-            let user1 = "";
-            let user2 = "";
-            let user3 = "";
-            let user4 = "";
-            let user5 = "";
-            let user6 = "";
-
-            let patches = new User()
-            patches.wieBenIk();//word niet genoeg uitleg gegeven om te begrijpen wat je moet doen. waardoor mijn code vast fout is.
-        }
+        user6.wieBenIk();
+        user5.wieBenIk();
+        user2.wieBenIk();
+        user3.wieBenIk();
+        user1.wieBenIk();
+        user6.wieBenIk();
+        user4.wieBenIk();
+        user2.wieBenIk();
+        user3.wieBenIk();
+        user2.wieBenIk();
     }
 }
 
-let app = new App ();
+let app = new App();
 app.runApplication();
-
-
-
-
-

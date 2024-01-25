@@ -87,3 +87,6 @@ class Goodbye2 {
 let goodbye2 = new Goodbye2();
 console.log("greeting van buiten: " + goodbye2.greeting);
 goodbye2.runApplication();
+
+
+
